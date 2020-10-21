@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-21T08:30:50.005Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="c7leEBwTC1fdkVGjOA_K" version="13.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-21T08:32:44.256Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="XhCH_qB47kWBppfPGKtn" version="13.8.1" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="2138" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -182,6 +182,22 @@
         </mxCell>
         <mxCell id="NrwG1v20kjML_bpoU52Q-1" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;font face=&quot;helvetica&quot;&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;等待跳转请求&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-60" y="460" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NrwG1v20kjML_bpoU52Q-7" value="17.发送跳转请求" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.14;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gYXXhBpm7j1OAniNJLsT-57" target="7baba1c4bc27f4b0-2">
+          <mxGeometry x="0.0932" y="-10" relative="1" as="geometry">
+            <mxPoint x="415" y="680" as="sourcePoint" />
+            <mxPoint x="259.5" y="680" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NrwG1v20kjML_bpoU52Q-9" value="18.跳转至网页前端" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.6;exitY=0.998;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gYXXhBpm7j1OAniNJLsT-42" target="7baba1c4bc27f4b0-4">
+          <mxGeometry x="-0.0146" relative="1" as="geometry">
+            <mxPoint x="253.5999999999999" y="677.79" as="sourcePoint" />
+            <mxPoint x="-60.5" y="677.79" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
