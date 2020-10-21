@@ -1,29 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2020-10-21T07:38:26.886Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="QKGsHa88UuKjfgb9un8x" version="13.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-21T07:48:38.906Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="K53F-_Y4oph8csbtD9zf" version="13.8.0" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="1965" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2138" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="7baba1c4bc27f4b0-2" value="态安全网页前端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="90" y="80" width="100" height="580" as="geometry" />
+          <mxGeometry x="40" y="80" width="100" height="580" as="geometry" />
         </mxCell>
         <mxCell id="gYXXhBpm7j1OAniNJLsT-42" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="7baba1c4bc27f4b0-2">
           <mxGeometry x="44" y="110" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-3" value="网站后端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="390" y="80" width="100" height="580" as="geometry" />
+          <mxGeometry x="360" y="80" width="100" height="580" as="geometry" />
         </mxCell>
         <mxCell id="gYXXhBpm7j1OAniNJLsT-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="7baba1c4bc27f4b0-3">
-          <mxGeometry x="45" y="330" width="10" height="20" as="geometry" />
+          <mxGeometry x="45" y="340" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gYXXhBpm7j1OAniNJLsT-52" value="10.生成一次性口令(OTP)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;exitX=1.14;exitY=0.118;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="7baba1c4bc27f4b0-3" source="gYXXhBpm7j1OAniNJLsT-25" target="gYXXhBpm7j1OAniNJLsT-25">
+          <mxGeometry x="0.4489" y="-70" width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="360" as="sourcePoint" />
+            <mxPoint x="200" y="360" as="targetPoint" />
+            <mxPoint x="70" y="70" as="offset" />
+            <Array as="points">
+              <mxPoint x="70" y="380" />
+              <mxPoint x="70" y="350" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-4" value="网站前端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="540" y="80" width="100" height="580" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-8" value="态安全App" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="-60" y="80" width="100" height="580" as="geometry" />
+          <mxGeometry x="-120" y="80" width="100" height="580" as="geometry" />
         </mxCell>
         <mxCell id="gYXXhBpm7j1OAniNJLsT-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="7baba1c4bc27f4b0-8">
-          <mxGeometry x="45" y="320" width="10" height="70" as="geometry" />
+          <mxGeometry x="45" y="250" width="10" height="70" as="geometry" />
         </mxCell>
         <mxCell id="gYXXhBpm7j1OAniNJLsT-41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="7baba1c4bc27f4b0-8">
           <mxGeometry x="45" y="40" width="10" height="70" as="geometry" />
@@ -31,7 +42,10 @@
         <mxCell id="7baba1c4bc27f4b0-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="7baba1c4bc27f4b0-8" vertex="1">
           <mxGeometry x="45" y="170" width="10" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gYXXhBpm7j1OAniNJLsT-6" value="4.发送扫描请求至后端" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" source="7baba1c4bc27f4b0-9" target="gYXXhBpm7j1OAniNJLsT-29">
+        <mxCell id="gYXXhBpm7j1OAniNJLsT-53" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="7baba1c4bc27f4b0-8">
+          <mxGeometry x="45" y="40" width="10" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="gYXXhBpm7j1OAniNJLsT-6" value="5.发送扫描请求至后端" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" source="7baba1c4bc27f4b0-9" target="gYXXhBpm7j1OAniNJLsT-29">
           <mxGeometry x="-0.0153" width="80" relative="1" as="geometry">
             <mxPoint x="155" y="187" as="sourcePoint" />
             <mxPoint x="135" y="280" as="targetPoint" />
@@ -41,24 +55,24 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gYXXhBpm7j1OAniNJLsT-16" value="4.返回满足属性访问结构&lt;br&gt;的可访问网站列表" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gYXXhBpm7j1OAniNJLsT-30" target="gYXXhBpm7j1OAniNJLsT-15">
+        <mxCell id="gYXXhBpm7j1OAniNJLsT-16" value="7.返回满足属性访问结构&lt;br&gt;的可访问网站列表" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gYXXhBpm7j1OAniNJLsT-30" target="gYXXhBpm7j1OAniNJLsT-15">
           <mxGeometry x="-0.0043" width="80" relative="1" as="geometry">
             <mxPoint x="289.5000000000001" y="240.36" as="sourcePoint" />
             <mxPoint x="140" y="240" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gYXXhBpm7j1OAniNJLsT-20" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;4.读取用户账户&lt;/span&gt;&lt;br style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;及属性密钥&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="300" width="100" height="30" as="geometry" />
+        <mxCell id="gYXXhBpm7j1OAniNJLsT-20" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;6.读取用户账户&lt;/span&gt;&lt;br style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;及属性密钥&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="290" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gYXXhBpm7j1OAniNJLsT-22" value="4.选择网站进行登录" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.067;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gYXXhBpm7j1OAniNJLsT-15" target="gYXXhBpm7j1OAniNJLsT-31">
+        <mxCell id="gYXXhBpm7j1OAniNJLsT-22" value="8.选择网站进行登录" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.067;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gYXXhBpm7j1OAniNJLsT-15" target="gYXXhBpm7j1OAniNJLsT-31">
           <mxGeometry x="-0.0865" width="80" relative="1" as="geometry">
             <mxPoint x="144" y="309" as="sourcePoint" />
             <mxPoint x="290" y="309" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gYXXhBpm7j1OAniNJLsT-24" value="5.生成一次性口令" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" target="gYXXhBpm7j1OAniNJLsT-25">
+        <mxCell id="gYXXhBpm7j1OAniNJLsT-24" value="9.发送加密入口&lt;br&gt;及用户账号" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" source="gYXXhBpm7j1OAniNJLsT-31" target="gYXXhBpm7j1OAniNJLsT-25">
           <mxGeometry x="-0.0345" width="80" relative="1" as="geometry">
             <mxPoint x="290" y="429" as="sourcePoint" />
             <mxPoint x="440" y="320" as="targetPoint" />
@@ -66,19 +80,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gYXXhBpm7j1OAniNJLsT-26" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;1.用户登录APP&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry y="140" width="100" height="20" as="geometry" />
+          <mxGeometry x="-60" y="140" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gYXXhBpm7j1OAniNJLsT-29" value="态安全后端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="240" y="80" width="100" height="580" as="geometry" />
+          <mxGeometry x="200" y="80" width="100" height="580" as="geometry" />
         </mxCell>
         <mxCell id="gYXXhBpm7j1OAniNJLsT-30" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="gYXXhBpm7j1OAniNJLsT-29">
-          <mxGeometry x="45" y="200" width="10" height="120" as="geometry" />
+          <mxGeometry x="45" y="200" width="10" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gYXXhBpm7j1OAniNJLsT-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="gYXXhBpm7j1OAniNJLsT-29">
-          <mxGeometry x="45" y="390" width="10" height="20" as="geometry" />
+          <mxGeometry x="45" y="320" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gYXXhBpm7j1OAniNJLsT-54" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="gYXXhBpm7j1OAniNJLsT-29">
+          <mxGeometry x="45" y="200" width="10" height="140" as="geometry" />
         </mxCell>
         <mxCell id="gYXXhBpm7j1OAniNJLsT-36" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;3.前端显示二维码&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="210" width="110" height="20" as="geometry" />
+          <mxGeometry x="100" y="210" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gYXXhBpm7j1OAniNJLsT-43" value="4.用户扫描二维码" style="html=1;verticalAlign=bottom;endArrow=block;rounded=1;" edge="1" parent="1" source="gYXXhBpm7j1OAniNJLsT-42" target="7baba1c4bc27f4b0-9">
           <mxGeometry x="-0.0009" width="80" relative="1" as="geometry">
@@ -95,6 +112,9 @@
             <Array as="points" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="gYXXhBpm7j1OAniNJLsT-51" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;10.生成一次性口令(OTP)&lt;br&gt;并存表,然后使用访问策略对一次性口令进行&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="260" width="250" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
